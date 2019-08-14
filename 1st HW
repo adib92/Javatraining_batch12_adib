@@ -1,0 +1,11 @@
+Java claims that it is a platform independent but under what certain condition it changes its behavior?
+
+Ans:Platform independent language means once compiled you can execute the program on any platform (OS). Java is platform independent. 
+Because the Java compiler converts the source code to bytecode, which is Intermediate Language. Bytecode can be executed on any
+platform (OS) using JVM (Java Virtual Machine) 
+
+Java is platform independent with the help of JVM. In Java, the main point here is that the JVM depends on the operating system – so if 
+you are running Mac OS X you will have a different JVM than if you are running Windows or some other operating system. This fact can be 
+verified by trying to download the JVM for your particular machine – when trying to download it, you will be given a list of JVM’s 
+corresponding to different operating systems, and you will obviously pick whichever JVM is targeted for the operating system that you 
+are running. So, we can conclude that JVM is platform dependent and it is the reason why Java is able to become “Platform Independent”. 
