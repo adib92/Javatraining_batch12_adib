@@ -1,0 +1,61 @@
+package coreJavaTraining;
+
+public class car {
+	
+	private String color;
+	private int chassino;
+	
+
+ public car()
+ {
+	 this.color="green";
+	 this.chassino=77;
+ }
+ 
+ 
+ public void setcolor(String color) {
+	// TODO Auto-generated method stub
+	this.color=color;
+}
+
+public void setchassino(int chassino) {
+	// TODO Auto-generated method stub
+	this.chassino=chassino;
+}
+
+public int getchassino() {
+	return chassino;
+	// TODO Auto-generated method stub
+	
+}
+
+public String getcolor() {
+	return color;
+	// TODO Auto-generated method stub
+	
+}
+
+public void display() {
+	System.out.println("Chassino number:"+ this.chassino + " Color: "+ this.color );
+	
+	 
+	 
+ }
+
+}
+
+package coreJavaTraining;
+
+public class project {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		car o = new car();
+		o.setcolor("black");
+		o.setchassino(55);
+		o.display();
+		car c = new car();
+		c.display();
+	}
+
+}
