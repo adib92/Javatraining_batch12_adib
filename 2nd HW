@@ -1,9 +1,11 @@
 1.create class with data members and member methods Email, Human, Shape.
 
-public class{
-String Email;
-String Human;
-int Shape;
+public class project{
+
+public void Email();
+public void Human();
+public void Shape();
+
 }
 
 2. List down what all data types are supported by java
